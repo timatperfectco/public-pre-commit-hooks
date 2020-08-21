@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo $* >> /tmp/thingie
+echo INVOCATION: $* >> /tmp/thingie
 if [ "$1" != "./prep_plan/app.py" ]; then
   exit 0
 fi
