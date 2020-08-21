@@ -1,0 +1,7 @@
+- id: center-portal-lambdas-require-elided-password
+  name: Center Portal Lambdas require elided password
+  description: This hook does what it says on the can
+  entry: center-portal-lambdas-elided-password-checker.bash
+  pass_filenames: true
+  language: script
+  types: [text]
