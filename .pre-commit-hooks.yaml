@@ -5,3 +5,10 @@
   pass_filenames: true
   language: script
   types: [text]
+- id: center-portal-lambdas-require-nonmocked-db
+  name: Center Portal Lambdas require that the db not be mocked for writes
+  description: This hook does what it says on the can
+  entry: center-portal-lambdas-nonmocked-db-checker.bash
+  pass_filenames: true
+  language: script
+  types: [text]
