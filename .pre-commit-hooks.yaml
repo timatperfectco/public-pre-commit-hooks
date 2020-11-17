@@ -19,10 +19,10 @@
   pass_filenames: true
   language: script
   types: [text]
-- id: perfectco-branch-naming-conventions
-  name: require that the branch name being committed to abides by perfect co branch naming conventions
+- id: perfectco-conventions
+  name: so far, require that the branch name being committed to abides by perfect co branch naming conventions
   description: This hook does what it says on the can
-  entry: perfectco-branch-naming-conventions.rb
+  entry: perfectco-conventions.rb
   pass_filenames: false
   language: script
   types: [text]

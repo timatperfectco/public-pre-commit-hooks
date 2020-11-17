@@ -10,4 +10,6 @@ if branch_name != ~ Regexp.new(regexp_str)
   exit 1
 end
 
+# TODO: conventional commit enforcement here?
+
 exit 0
