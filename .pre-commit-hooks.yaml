@@ -24,5 +24,5 @@
   description: This hook does what it says on the can
   entry: perfectco-conventions.rb
   pass_filenames: false
-  language: script
+  language: ruby
   types: [text]
