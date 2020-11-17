@@ -15,7 +15,7 @@
 - id: puc-cloud-require-passing-prettier
   name: Puc Cloud require that files checking in pass prettier
   description: This hook does what it says on the can
-  entry: puc-cloud-pretty-checker.bash
+  entry: puc-cloud-pretty-checker.rb
   pass_filenames: true
   language: script
   types: [text]
