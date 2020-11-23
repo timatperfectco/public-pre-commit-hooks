@@ -17,12 +17,12 @@
   description: This hook does what it says on the can
   entry: puc-cloud-pretty-checker.rb
   pass_filenames: true
-  language: ruby
+  language: script
   types: [text]
 - id: perfectco-conventions
   name: so far, require that the branch name being committed to abides by perfect co branch naming conventions
   description: This hook does what it says on the can
   entry: perfectco-conventions.rb
   pass_filenames: false
-  language: ruby
+  language: script
   types: [text]
